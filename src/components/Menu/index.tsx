@@ -1,10 +1,12 @@
-import React from "react";
+import './Menu.css'
 
 
 const Menu = () => {
     return (
-        <div>
-            <h1>EternalEncrypt</h1>
+        <div className='menu'>
+            <h1>Eternal Encrypt</h1>
+            <h4>by Tales Palma</h4> 
+            
         </div>
     )
 }

@@ -1,8 +1,10 @@
-
+import './Banner.css'
 const Banner = () => {
     return (
-        <div>
-            <img src="" alt="banner" />
+        <div className='banner'>
+            
+            <img src="imagens/logoSite.png" alt="my banner" />
+           
         </div>
     )
 }
