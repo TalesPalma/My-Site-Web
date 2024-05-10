@@ -12,19 +12,18 @@ function App() {
         <Card
           title={card1.title}
           content={card1.content}
-          sizeCard={{ width: "400px", height: "400px", margin: "10px" }}
         />
         <Card
           title={card2.title}
           content={card2.content}
-          sizeCard={{ width: "400px", height: "400px", margin: "10px" }}
         />
       </div>
-      <Card
-        title={card3.title}
-        content={card3.content}
-        sizeCard={{ width: "800px", height: "400px", margin: "100px" }}
-      />
+      <div className="cards_big">
+        <Card
+          title={card3.title}
+          content={card3.content}
+        />
+      </div>
     </div>
   )
 }
